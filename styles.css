@@ -1,0 +1,37 @@
+body {
+    background-color: aliceblue;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#chocolates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.chocolate {
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.chocolate.selected {
+    background-color:blueviolet; /* Yellow background for selected chocolates */
+}
+
+#summary {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+#totalPrice {
+    font-weight: bold;
+}
